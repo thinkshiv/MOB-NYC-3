@@ -51,11 +51,11 @@
         <td>1</td>
         <td>
             <strong>2015 04 21</strong><br>
-            01 - Mobile Interfaces and Layouts<br>
+            01 - Mobile Interfaces<br>
             <a href="http://mobbook.generalassemb.ly/github/intro.html">1.0</a>,
             skip 1.2.3
         </td>
-        <td><strong>2015 04 23</strong><br>02 - Intro to IB/Storyboards</td>
+        <td><strong>2015 04 23</strong><br>02 - Intro to Storyboards</td>
     </tr>
 
     <tr>
