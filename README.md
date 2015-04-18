@@ -38,7 +38,7 @@
         <td><strong>Wk 0</strong></td>
         <td>1</td>
         <td></td>
-        <td><strong>2015 04 16</strong><br>[00 - Getting Started](https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2000)</td>
+        <td><strong>2015 04 16</strong><br><a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2000">00 - Getting Started</a></td>
     </tr>
     
     <tr>
