@@ -38,7 +38,12 @@
         <td><strong>Wk 0</strong></td>
         <td>1</td>
         <td></td>
-        <td><strong>2015 04 16</strong><br><a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2000">00 - Getting Started</a></td>
+        <td>
+            <strong>2015 04 16</strong><br>
+            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2000">00 - Getting Started</a><br>
+            <a href="http://mobbook.generalassemb.ly/week01/xcode.html">2.1</a>, 
+            <a href="http://mobbook.generalassemb.ly/week01/ib.html">2.2</a>
+        </td>
     </tr>
     
     <tr>
