@@ -2,27 +2,7 @@
 
 Build a photo collection app using photos from a Google image search or similar, like this:
 
-    ----------------------------------
-    |                                |
-    |  Shibas                        |
-    |                                |
-    |  -------------  -------------  |
-    |  |           |  |           |  |
-    |  |           |  |           |  |
-    |  |   Photo   |  |   Photo   |  |
-    |  |           |  |           |  |
-    |  |           |  |           |  |
-    |  -------------  -------------  |
-    |                                |
-    |  -------------  -------------  |
-    |  |           |  |           |  |
-    |  |           |  |           |  |
-    |  |   Photo   |  |   Photo   |  |
-    |  |           |  |           |  |
-    |  |           |  |           |  |
-    |  -------------  -------------  |
-    |                                |
-    ----------------------------------
+<img src="shibas-app.png" style="width:300px">
 
 A sample project and PDF description are provided in this folder.
 
