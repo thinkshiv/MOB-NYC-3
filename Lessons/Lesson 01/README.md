@@ -44,8 +44,7 @@ Q+A: Any confusing concepts?
 
 Breaking Down Views (30 min)
 
-Exercise, get the students out of their seats. Pick a couple of “favorite apps”.
-
+Exercise: Pick a partner. Together, pick an app. Draw a single app screen on the whiteboard, and break down the screen by identifying views found in the Object Library.
 
 ### Submitting Homework: Git + Github
 
