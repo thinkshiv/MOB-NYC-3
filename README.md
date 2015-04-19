@@ -51,7 +51,7 @@
         <td>1</td>
         <td>
             <strong>2015 04 21</strong><br>
-            01 - Mobile Interfaces<br>
+            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2001">01 - Mobile Interfaces</a><br>
             <a href="http://mobbook.generalassemb.ly/github/intro.html">1.0</a>,
             skip 1.2.3
         </td>

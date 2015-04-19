@@ -109,5 +109,13 @@ Go over terminology and paradigms of mobile app design. (30 min)
     * Lists, filtering, and empty sets
     * Dialog boxes
 
+### Present the Assignment
+
+Due on Thursday, April 30.
+
+See the PDF description and standards for grading [here](https://github.com/ga-students/MOB-NYC-3/tree/master/Assessments_Challenges/Week%2001)
+
+### Exit Tickets
+
 ### Q+A
 
