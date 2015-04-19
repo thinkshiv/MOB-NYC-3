@@ -55,7 +55,11 @@
             <a href="http://mobbook.generalassemb.ly/github/intro.html">1.0</a>,
             skip 1.2.3
         </td>
-        <td><strong>2015 04 23</strong><br>02 - Intro to Storyboards</td>
+        <td>
+            <strong>2015 04 23</strong><br>
+            02 - Intro to Storyboards<br>
+            <a href="http://mobbook.generalassemb.ly/week02/ib2.html">3.3</a>
+        </td>
     </tr>
 
     <tr>
