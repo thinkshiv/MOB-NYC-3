@@ -10,15 +10,22 @@
 
 ## Lesson Plan
 
-### Hackulator Example Project
+### Review!
 
-* A tour of Hackulator. (30 min)
-* Structure of the code.
-* Interface Builder files
-    * Main storyboard
-    * NIBs
-* Q+A
+The content on the class repository has been updated! Go through the process of updating your Fork with the new content.
 
+* Open Github for Mac.
+* Repository > Pull
+* Open "Branches" tab.
+* Open the "Merge View" panel.
+* Merge by
+    * dragging ga-students/master to the first box
+    * dragging master to the second box
+    * Click "Merge Branches"
+* Click Sync
+* Go to your hard drive and check to see the new PDF is there for Lesson 02
+    * Right-click on MOB-NYC-3 in the sidebar
+    * Select "Open in Finder"
 
 ### Mobile App Design
 
