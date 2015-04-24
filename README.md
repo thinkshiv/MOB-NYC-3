@@ -57,7 +57,7 @@
         </td>
         <td>
             <strong>2015 04 23</strong><br>
-            02 - Intro to Storyboards<br>
+            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2002">02 - Intro to Storyboards</a><br>
             <a href="http://mobbook.generalassemb.ly/week02/ib2.html">3.3</a>
         </td>
     </tr>
