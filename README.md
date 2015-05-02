@@ -110,7 +110,7 @@
             <br>
         </td>
         <td><strong>2015 05 14</strong><br>
-            08 - Data Structures - Arrays and Dictionaries
+            08 - Data Structures
             <br>
         </td>
     </tr>
@@ -168,7 +168,7 @@
         <td><strong>Wk 12</strong></td>
         <td></td>
         <td><strong>2015 07 07</strong><br>24 - Final Project Presentations</td>
-        <td>BONUS SESSION? = App Store Submission Process</td>
+        <td>BONUS SESSION<br>App Store Submission Process</td>
     </tr>
     
     
