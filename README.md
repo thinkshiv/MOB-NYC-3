@@ -180,8 +180,6 @@
 
 Work for the class consists of in-class exercises, "homework" assignments, and two projects.
 
-Each assignment will be assigned on a Tuesday. The following Tuesday, Angel will hold a brief session before (or after) class to go over techniques for solving the problem. The assignment will be due 2 days later on the Thursday. i.e. Each assignment will be due 9 days after it is assigned. A solution will be posted after class the day the assignment is due.
-
 <table>
     <thead>
         <tr>
@@ -198,7 +196,7 @@ Each assignment will be assigned on a Tuesday. The following Tuesday, Angel will
             <td><strong>01</strong></td>
             <td>
                 <a href="https://github.com/ga-students/MOB-NYC-3/blob/master/Assessments_Challenges/Week%2001/MOB_Week%201%20Assignment.pdf">
-                    Create a Vanity App
+                    Assessment 01 - Create a Vanity App
                 </a>
             </td>
         </tr>
@@ -222,7 +220,8 @@ This is where you'll receive announcements, reminders about assignments, additio
 
 ## Office Hours
 
-TBD.
+**Angel** - Wednesdays 6pm to 9pm at GA (time still may change)  
+**William** - Saturday afternoons at GA
 
 ## Github
 
