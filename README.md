@@ -194,6 +194,22 @@ Each assignment will be assigned on a Tuesday. The following Tuesday, Angel will
             <td><strong>00</strong></td>
             <td>Finish the Photo Collection exercise</td>
         </tr>
+        <tr>
+            <td><strong>01</strong></td>
+            <td>
+                <a href="https://github.com/ga-students/MOB-NYC-3/blob/master/Assessments_Challenges/Week%2001/MOB_Week%201%20Assignment.pdf">
+                    Create a Vanity App
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>02</strong></td>
+            <td>
+                <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2004">
+                    Complete the Intro to Swift playground
+                </a>
+            </td>
+        </tr>
     </tbody>
 </table>
 
