@@ -73,22 +73,46 @@
             <a href="http://mobbook.generalassemb.ly/week02/definitions.html">3.2</a>
         </td>
         <td><strong>2015 04 30</strong><br>
-            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2004">04 - Intro to Functions</a>
+            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2004">
+                04 - Intro to Control Flow</a>
+            <br>
+            <em>Assessment #1 Due</em>
         </td>
     </tr>
     
     <tr>
         <td><strong>Wk 3</strong></td>
         <td>2</td>
-        <td><strong>2015 05 05</strong><br>05 - Interface Builder and Code</td>
-        <td><strong>2015 05 07</strong><br>06 - Object-Oriented Programming</td>
+        <td><strong>2015 05 05</strong><br>
+            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2005">
+                05 - Introduction to Functions
+            </a>
+            <br>
+            <a href="http://mobbook.generalassemb.ly/week02/swift.html">3.1</a>
+        </td>
+        <td><strong>2015 05 07</strong><br>
+            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2006">
+                06 - Object-Oriented Programming
+            </a>
+            <br>
+            <a href="http://mobbook.generalassemb.ly/week03/terms.html">4.1</a>
+        </td>
     </tr>
     
     <tr>
         <td><strong>Wk 4</strong></td>
         <td>2</td>
-        <td><strong>2015 05 12</strong><br>07 - UI Elements and View Controllers</td>
-        <td><strong>2015 05 14</strong><br>08 - Data Structures - Arrays and Dictionaries</td>
+        <td><strong>2015 05 12</strong><br>
+            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2007">
+                07 - Interface Builder and Code<br>
+                UI Elements and View Controllers
+            </a>
+            <br>
+        </td>
+        <td><strong>2015 05 14</strong><br>
+            08 - Data Structures - Arrays and Dictionaries
+            <br>
+        </td>
     </tr>
     
     <tr>
