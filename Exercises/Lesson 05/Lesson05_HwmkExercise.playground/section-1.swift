@@ -116,14 +116,13 @@ calculateAge(1981)
 // The function will have one var: age, you will call the calculateAge function and store the return value in that var
 // After that you will print a line that states "{name}, my age is {age}", where {age} is the var of course!
 func tellNameandAge(name:String,yearofBirth:Int){
-    var age : Int
+    var age:Int
     
-    init(){
-        self.age=calculateAge(yearofBirth)
-        println("\(name), my age is \(age)")
-    }
-    
+    age=calculateAge(yearofBirth)
+    println("\(name), my age is \(age)")
+
 }
+
 
 
 // Call knock knock
@@ -138,4 +137,7 @@ replyWhoIsHere("Shiven","Tanzania")
 
 // Call tellNameAndAge
 tellNameandAge("Shiven",1981)
+
+
+
 
