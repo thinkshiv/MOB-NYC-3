@@ -57,7 +57,7 @@
         </td>
         <td>
             <strong>2015 04 23</strong><br>
-            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2002">02 - Intro to Storyboards</a><br>
+            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2002">02 - Introduction to Storyboards</a><br>
             <a href="http://mobbook.generalassemb.ly/week02/ib2.html">3.3</a>
         </td>
     </tr>
@@ -74,7 +74,7 @@
         </td>
         <td><strong>2015 04 30</strong><br>
             <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2004">
-                04 - Intro to Control Flow</a>
+                04 - Introduction to Control Flow</a>
             <br>
             <em>Assessment #1 Due</em>
         </td>
@@ -104,8 +104,7 @@
         <td>2</td>
         <td><strong>2015 05 12</strong><br>
             <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2007">
-                07 - Interface Builder and Code<br>
-                UI Elements and View Controllers
+                07 - Powering Interfaces with Code
             </a>
             <br>
         </td>
