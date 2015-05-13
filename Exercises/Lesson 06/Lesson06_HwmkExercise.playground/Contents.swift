@@ -3,11 +3,11 @@
 import UIKit
 
 class Player{
-    var health : Int
+    var health : Int = 100
     var name : String
     
-    init(health:Int,name:String){
-        self.health=100
+    init(name:String){
+        
         self.name=name
         println("Player name is /(name)")
     }
@@ -27,7 +27,8 @@ class Player{
 }
 
 class GoodPlayer{
-    
+    let randomNumber = arc4random_uniform(100) + 0
+    println(randomNumber)
 }
 
 class BadPlayer{
@@ -36,18 +37,31 @@ class BadPlayer{
 
 
 class Match{
-    var playerOne : Player
-    var playerTwo : Player
+    var playerOne : GoodPlayer
+    var playerTwo : BadPlayer
     
     init(){
+        //self.playerOne.name=playerOne.name
+        //self.playerTwo.name=playerTwo.name
+        println("Player name is /(name)")
         
+    }
+    
+    init(name1:String,name2:String){
+       // self.name=playerOne.name
+       // self.name=playerTwo.name
     }
     
 
     func playGame(){
+        println("Player name is /(name1)")
         
-        while(playerOne.isAlive()==true) && (playerTwo.isAlive()==true){
+        //while(playerOne.isAlive()==true) && (playerTwo.isAlive()==true){
             
-        }
+        //}
     }
 }
+
+var play = Match()
+play.playGame()
+
