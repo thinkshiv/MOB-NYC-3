@@ -109,7 +109,9 @@
             <br>
         </td>
         <td><strong>2015 05 14</strong><br>
-            08 - Swift Data Structures
+            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2008">
+                08 - Swift Data Structures
+            </a>
             <br>
         </td>
     </tr>
