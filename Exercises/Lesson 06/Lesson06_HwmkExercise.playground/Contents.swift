@@ -1,19 +1,19 @@
 //: Playground - noun: a place where people can play
 
-import UIKit
+import Foundation
 
 class Player{
     var health : Int = 100
     var name : String
+    var attackmagnitude : Int = 2
     
     init(name:String){
         
         self.name=name
-        println("Player name is /(name)")
     }
     
     func attack() ->Int{
-        return health
+        return attackmagnitude
     }
     
     func isAlive() ->Bool{
@@ -26,42 +26,78 @@ class Player{
     }
 }
 
-class GoodPlayer{
-    let randomNumber = arc4random_uniform(100) + 0
-    println(randomNumber)
+class GoodPlayer : Player{
+    
+    
+    override func attack() -> Int {
+        
+        return 4 * attackmagnitude
+    }
+    
 }
 
-class BadPlayer{
+class BadPlayer : Player{
     
+    
+    override func attack() -> Int {
+        return 2 * attackmagnitude
+    }
 }
 
 
 class Match{
+    
     var playerOne : GoodPlayer
     var playerTwo : BadPlayer
     
-    init(){
-        //self.playerOne.name=playerOne.name
-        //self.playerTwo.name=playerTwo.name
-        println("Player name is /(name)")
+    
+    init(playerOnename : GoodPlayer, playerTwoname : BadPlayer){
+        self.playerOne=playerOnename
+        self.playerTwo=playerTwoname
         
     }
-    
-    init(name1:String,name2:String){
-       // self.name=playerOne.name
-       // self.name=playerTwo.name
-    }
-    
 
     func playGame(){
-        println("Player name is /(name1)")
         
-        //while(playerOne.isAlive()==true) && (playerTwo.isAlive()==true){
-            
-        //}
+        var isPlayerOne = true
+        while(playerOne.isAlive()==true) && (playerTwo.isAlive()==true){
+            if isPlayerOne{
+                playerOne.attack()
+                playerTwo.health=playerTwo.health - playerOne.attack()
+                isPlayerOne=false
+            }
+            else{
+                playerTwo.attack()
+                playerOne.health=playerOne.health - playerTwo.attack()
+                isPlayerOne=true
+            }
+        }
+        if !playerOne.isAlive(){
+            println(" \(playerTwo.name) is alive")
+        }
+        else{
+            println(" \(playerOne.name) is alive")
+        }
     }
 }
 
-var play = Match()
-play.playGame()
+let p1 = GoodPlayer(name: "p1")
+let p2 = BadPlayer(name: "p2")
+let playmatch = Match(playerOnename: p1, playerTwoname: p2)
+
+playmatch.playGame()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

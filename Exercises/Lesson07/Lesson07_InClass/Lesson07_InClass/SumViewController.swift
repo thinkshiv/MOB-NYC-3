@@ -20,14 +20,16 @@ class SumViewController: UIViewController {
     }
 
     @IBAction func myButton(sender: AnyObject) {
-        if NSScanner(string: txtField1.text).scanDecimal(nil) && NSScanner(string: txtField1.text).atEnd == true {
-            myLabel.text=(NSString(string: txtField1.text).doubleValue + NSString(string: txtField2.text).doubleValue).description
+        myLabel.text=(NSString(string: txtField1.text).doubleValue + NSString(string: txtField2.text).doubleValue).description
+        /*if NSScanner(string: txtField1.text).scanDecimal(nil) && NSScanner(string: txtField1.text).atEnd == true {
+            
         }
         else{
             myLabel.text="Not a number"
         }
-        
+     */   
     }
+        
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
