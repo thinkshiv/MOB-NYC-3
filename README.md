@@ -109,16 +109,25 @@
             <br>
         </td>
         <td><strong>2015 05 14</strong><br>
-            08 - Swift Data Structures
+            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2008">
+                08 - Swift Data Structures
+            </a>
             <br>
+            <em>Assessment #2 due</em>
         </td>
     </tr>
     
     <tr>
         <td><strong>Wk 5</strong></td>
         <td>2</td>
-        <td><strong>2015 05 19</strong><br>09 - Table Views</td>
-        <td><strong>2015 05 21</strong><br>10 - iOS Design Patterns</td>
+        <td><strong>2015 05 19</strong><br>
+            09 - Table Views
+        </td>
+        <td><strong>2015 05 21</strong><br>
+            10 - iOS Design Patterns
+            <br>
+            <em>Assessment #3 due</em>
+        </td>
     </tr>
     
     <tr>
