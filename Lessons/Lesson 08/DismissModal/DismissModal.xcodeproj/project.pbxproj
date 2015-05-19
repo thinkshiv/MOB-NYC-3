@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		4B489E541B055BCC00C219B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B489E531B055BCC00C219B9 /* AppDelegate.swift */; };
 		4B489E561B055BCC00C219B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B489E551B055BCC00C219B9 /* ViewController.swift */; };
 		4B489E591B055BCC00C219B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B489E571B055BCC00C219B9 /* Main.storyboard */; };
@@ -22,11 +23,29 @@
 			containerPortal = 4B489E461B055BCC00C219B9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4B489E4D1B055BCC00C219B9;
+=======
+		AFBA434B1B055BB6009B7987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA434A1B055BB6009B7987 /* AppDelegate.swift */; };
+		AFBA434D1B055BB6009B7987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA434C1B055BB6009B7987 /* ViewController.swift */; };
+		AFBA43501B055BB6009B7987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBA434E1B055BB6009B7987 /* Main.storyboard */; };
+		AFBA43521B055BB6009B7987 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBA43511B055BB6009B7987 /* Images.xcassets */; };
+		AFBA43551B055BB6009B7987 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBA43531B055BB6009B7987 /* LaunchScreen.xib */; };
+		AFBA43611B055BB6009B7987 /* DismissModalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA43601B055BB6009B7987 /* DismissModalTests.swift */; };
+		AFBA436F1B055D9E009B7987 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA436E1B055D9E009B7987 /* ModalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFBA435B1B055BB6009B7987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFBA433D1B055BB6009B7987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFBA43441B055BB6009B7987;
+>>>>>>> ga-students/master
 			remoteInfo = DismissModal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		4B489E4E1B055BCC00C219B9 /* DismissModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DismissModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B489E521B055BCC00C219B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B489E531B055BCC00C219B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,13 +61,34 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		4B489E4B1B055BCC00C219B9 /* Frameworks */ = {
+=======
+		AFBA43451B055BB6009B7987 /* DismissModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DismissModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBA43491B055BB6009B7987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFBA434A1B055BB6009B7987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFBA434C1B055BB6009B7987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFBA434F1B055BB6009B7987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFBA43511B055BB6009B7987 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFBA43541B055BB6009B7987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AFBA435A1B055BB6009B7987 /* DismissModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DismissModalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBA435F1B055BB6009B7987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFBA43601B055BB6009B7987 /* DismissModalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissModalTests.swift; sourceTree = "<group>"; };
+		AFBA436E1B055D9E009B7987 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFBA43421B055BB6009B7987 /* Frameworks */ = {
+>>>>>>> ga-students/master
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		4B489E601B055BCC00C219B9 /* Frameworks */ = {
+=======
+		AFBA43571B055BB6009B7987 /* Frameworks */ = {
+>>>>>>> ga-students/master
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,6 +98,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		4B489E451B055BCC00C219B9 = {
 			isa = PBXGroup;
 			children = (
@@ -72,10 +113,27 @@
 			children = (
 				4B489E4E1B055BCC00C219B9 /* DismissModal.app */,
 				4B489E631B055BCC00C219B9 /* DismissModalTests.xctest */,
+=======
+		AFBA433C1B055BB6009B7987 = {
+			isa = PBXGroup;
+			children = (
+				AFBA43471B055BB6009B7987 /* DismissModal */,
+				AFBA435D1B055BB6009B7987 /* DismissModalTests */,
+				AFBA43461B055BB6009B7987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFBA43461B055BB6009B7987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA43451B055BB6009B7987 /* DismissModal.app */,
+				AFBA435A1B055BB6009B7987 /* DismissModalTests.xctest */,
+>>>>>>> ga-students/master
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		4B489E501B055BCC00C219B9 /* DismissModal */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,31 +144,65 @@
 				4B489E5A1B055BCC00C219B9 /* Images.xcassets */,
 				4B489E5C1B055BCC00C219B9 /* LaunchScreen.xib */,
 				4B489E511B055BCC00C219B9 /* Supporting Files */,
+=======
+		AFBA43471B055BB6009B7987 /* DismissModal */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA434A1B055BB6009B7987 /* AppDelegate.swift */,
+				AFBA434C1B055BB6009B7987 /* ViewController.swift */,
+				AFBA434E1B055BB6009B7987 /* Main.storyboard */,
+				AFBA43511B055BB6009B7987 /* Images.xcassets */,
+				AFBA43531B055BB6009B7987 /* LaunchScreen.xib */,
+				AFBA43481B055BB6009B7987 /* Supporting Files */,
+				AFBA436E1B055D9E009B7987 /* ModalViewController.swift */,
+>>>>>>> ga-students/master
 			);
 			path = DismissModal;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		4B489E511B055BCC00C219B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				4B489E521B055BCC00C219B9 /* Info.plist */,
+=======
+		AFBA43481B055BB6009B7987 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA43491B055BB6009B7987 /* Info.plist */,
+>>>>>>> ga-students/master
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		4B489E661B055BCC00C219B9 /* DismissModalTests */ = {
 			isa = PBXGroup;
 			children = (
 				4B489E691B055BCC00C219B9 /* DismissModalTests.swift */,
 				4B489E671B055BCC00C219B9 /* Supporting Files */,
+=======
+		AFBA435D1B055BB6009B7987 /* DismissModalTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA43601B055BB6009B7987 /* DismissModalTests.swift */,
+				AFBA435E1B055BB6009B7987 /* Supporting Files */,
+>>>>>>> ga-students/master
 			);
 			path = DismissModalTests;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		4B489E671B055BCC00C219B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				4B489E681B055BCC00C219B9 /* Info.plist */,
+=======
+		AFBA435E1B055BB6009B7987 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA435F1B055BB6009B7987 /* Info.plist */,
+>>>>>>> ga-students/master
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,6 +210,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 		4B489E4D1B055BCC00C219B9 /* DismissModal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B489E6D1B055BCC00C219B9 /* Build configuration list for PBXNativeTarget "DismissModal" */;
@@ -125,6 +218,15 @@
 				4B489E4A1B055BCC00C219B9 /* Sources */,
 				4B489E4B1B055BCC00C219B9 /* Frameworks */,
 				4B489E4C1B055BCC00C219B9 /* Resources */,
+=======
+		AFBA43441B055BB6009B7987 /* DismissModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFBA43641B055BB6009B7987 /* Build configuration list for PBXNativeTarget "DismissModal" */;
+			buildPhases = (
+				AFBA43411B055BB6009B7987 /* Sources */,
+				AFBA43421B055BB6009B7987 /* Frameworks */,
+				AFBA43431B055BB6009B7987 /* Resources */,
+>>>>>>> ga-students/master
 			);
 			buildRules = (
 			);
@@ -132,6 +234,7 @@
 			);
 			name = DismissModal;
 			productName = DismissModal;
+<<<<<<< HEAD
 			productReference = 4B489E4E1B055BCC00C219B9 /* DismissModal.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -142,20 +245,41 @@
 				4B489E5F1B055BCC00C219B9 /* Sources */,
 				4B489E601B055BCC00C219B9 /* Frameworks */,
 				4B489E611B055BCC00C219B9 /* Resources */,
+=======
+			productReference = AFBA43451B055BB6009B7987 /* DismissModal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFBA43591B055BB6009B7987 /* DismissModalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFBA43671B055BB6009B7987 /* Build configuration list for PBXNativeTarget "DismissModalTests" */;
+			buildPhases = (
+				AFBA43561B055BB6009B7987 /* Sources */,
+				AFBA43571B055BB6009B7987 /* Frameworks */,
+				AFBA43581B055BB6009B7987 /* Resources */,
+>>>>>>> ga-students/master
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				4B489E651B055BCC00C219B9 /* PBXTargetDependency */,
 			);
 			name = DismissModalTests;
 			productName = DismissModalTests;
 			productReference = 4B489E631B055BCC00C219B9 /* DismissModalTests.xctest */;
+=======
+				AFBA435C1B055BB6009B7987 /* PBXTargetDependency */,
+			);
+			name = DismissModalTests;
+			productName = DismissModalTests;
+			productReference = AFBA435A1B055BB6009B7987 /* DismissModalTests.xctest */;
+>>>>>>> ga-students/master
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< HEAD
 		4B489E461B055BCC00C219B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
@@ -172,6 +296,24 @@
 				};
 			};
 			buildConfigurationList = 4B489E491B055BCC00C219B9 /* Build configuration list for PBXProject "DismissModal" */;
+=======
+		AFBA433D1B055BB6009B7987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Anomalus;
+				TargetAttributes = {
+					AFBA43441B055BB6009B7987 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					AFBA43591B055BB6009B7987 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = AFBA43441B055BB6009B7987;
+					};
+				};
+			};
+			buildConfigurationList = AFBA43401B055BB6009B7987 /* Build configuration list for PBXProject "DismissModal" */;
+>>>>>>> ga-students/master
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,6 +321,7 @@
 				en,
 				Base,
 			);
+<<<<<<< HEAD
 			mainGroup = 4B489E451B055BCC00C219B9;
 			productRefGroup = 4B489E4F1B055BCC00C219B9 /* Products */;
 			projectDirPath = "";
@@ -186,11 +329,21 @@
 			targets = (
 				4B489E4D1B055BCC00C219B9 /* DismissModal */,
 				4B489E621B055BCC00C219B9 /* DismissModalTests */,
+=======
+			mainGroup = AFBA433C1B055BB6009B7987;
+			productRefGroup = AFBA43461B055BB6009B7987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFBA43441B055BB6009B7987 /* DismissModal */,
+				AFBA43591B055BB6009B7987 /* DismissModalTests */,
+>>>>>>> ga-students/master
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
 		4B489E4C1B055BCC00C219B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,6 +355,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4B489E611B055BCC00C219B9 /* Resources */ = {
+=======
+		AFBA43431B055BB6009B7987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBA43501B055BB6009B7987 /* Main.storyboard in Resources */,
+				AFBA43551B055BB6009B7987 /* LaunchScreen.xib in Resources */,
+				AFBA43521B055BB6009B7987 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBA43581B055BB6009B7987 /* Resources */ = {
+>>>>>>> ga-students/master
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,6 +377,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 		4B489E4A1B055BCC00C219B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,32 +393,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B489E6A1B055BCC00C219B9 /* DismissModalTests.swift in Sources */,
+=======
+		AFBA43411B055BB6009B7987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBA434D1B055BB6009B7987 /* ViewController.swift in Sources */,
+				AFBA436F1B055D9E009B7987 /* ModalViewController.swift in Sources */,
+				AFBA434B1B055BB6009B7987 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBA43561B055BB6009B7987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBA43611B055BB6009B7987 /* DismissModalTests.swift in Sources */,
+>>>>>>> ga-students/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< HEAD
 		4B489E651B055BCC00C219B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4B489E4D1B055BCC00C219B9 /* DismissModal */;
 			targetProxy = 4B489E641B055BCC00C219B9 /* PBXContainerItemProxy */;
+=======
+		AFBA435C1B055BB6009B7987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFBA43441B055BB6009B7987 /* DismissModal */;
+			targetProxy = AFBA435B1B055BB6009B7987 /* PBXContainerItemProxy */;
+>>>>>>> ga-students/master
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+<<<<<<< HEAD
 		4B489E571B055BCC00C219B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4B489E581B055BCC00C219B9 /* Base */,
+=======
+		AFBA434E1B055BB6009B7987 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFBA434F1B055BB6009B7987 /* Base */,
+>>>>>>> ga-students/master
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		4B489E5C1B055BCC00C219B9 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4B489E5D1B055BCC00C219B9 /* Base */,
+=======
+		AFBA43531B055BB6009B7987 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFBA43541B055BB6009B7987 /* Base */,
+>>>>>>> ga-students/master
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,7 +464,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 		4B489E6B1B055BCC00C219B9 /* Debug */ = {
+=======
+		AFBA43621B055BB6009B7987 /* Debug */ = {
+>>>>>>> ga-students/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,7 +512,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		4B489E6C1B055BCC00C219B9 /* Release */ = {
+=======
+		AFBA43631B055BB6009B7987 /* Release */ = {
+>>>>>>> ga-students/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -340,7 +553,11 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		4B489E6E1B055BCC00C219B9 /* Debug */ = {
+=======
+		AFBA43651B055BB6009B7987 /* Debug */ = {
+>>>>>>> ga-students/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -350,7 +567,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		4B489E6F1B055BCC00C219B9 /* Release */ = {
+=======
+		AFBA43661B055BB6009B7987 /* Release */ = {
+>>>>>>> ga-students/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -360,7 +581,11 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		4B489E711B055BCC00C219B9 /* Debug */ = {
+=======
+		AFBA43681B055BB6009B7987 /* Debug */ = {
+>>>>>>> ga-students/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -379,7 +604,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		4B489E721B055BCC00C219B9 /* Release */ = {
+=======
+		AFBA43691B055BB6009B7987 /* Release */ = {
+>>>>>>> ga-students/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -397,15 +626,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 		4B489E491B055BCC00C219B9 /* Build configuration list for PBXProject "DismissModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B489E6B1B055BCC00C219B9 /* Debug */,
 				4B489E6C1B055BCC00C219B9 /* Release */,
+=======
+		AFBA43401B055BB6009B7987 /* Build configuration list for PBXProject "DismissModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBA43621B055BB6009B7987 /* Debug */,
+				AFBA43631B055BB6009B7987 /* Release */,
+>>>>>>> ga-students/master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		4B489E6D1B055BCC00C219B9 /* Build configuration list for PBXNativeTarget "DismissModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -419,10 +657,29 @@
 			buildConfigurations = (
 				4B489E711B055BCC00C219B9 /* Debug */,
 				4B489E721B055BCC00C219B9 /* Release */,
+=======
+		AFBA43641B055BB6009B7987 /* Build configuration list for PBXNativeTarget "DismissModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBA43651B055BB6009B7987 /* Debug */,
+				AFBA43661B055BB6009B7987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFBA43671B055BB6009B7987 /* Build configuration list for PBXNativeTarget "DismissModalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBA43681B055BB6009B7987 /* Debug */,
+				AFBA43691B055BB6009B7987 /* Release */,
+>>>>>>> ga-students/master
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
+<<<<<<< HEAD
 	rootObject = 4B489E461B055BCC00C219B9 /* Project object */;
+=======
+	rootObject = AFBA433D1B055BB6009B7987 /* Project object */;
+>>>>>>> ga-students/master
 }

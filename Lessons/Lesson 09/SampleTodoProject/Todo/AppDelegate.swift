@@ -1,14 +1,9 @@
 //
 //  AppDelegate.swift
-//  DismissModal
+//  Todo
 //
-<<<<<<< HEAD
-//  Created by Shiven Ramji on 5/14/15.
-//  Copyright (c) 2015 Shiven Ramji. All rights reserved.
-=======
-//  Created by William Martin on 5/14/15.
-//  Copyright (c) 2015 Anomalus. All rights reserved.
->>>>>>> ga-students/master
+//  Created by Rudd Taylor on 1/21/15.
+//  Copyright (c) 2015 GA. All rights reserved.
 //
 
 import UIKit
