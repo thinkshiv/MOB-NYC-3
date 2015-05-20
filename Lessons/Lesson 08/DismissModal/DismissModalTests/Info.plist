@@ -8,7 +8,11 @@
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<string>thinkshiv.com.$(PRODUCT_NAME:rfc1034identifier)</string>
+=======
+	<string>com.anomalus.$(PRODUCT_NAME:rfc1034identifier)</string>
+>>>>>>> ga-students/master
 =======
 	<string>com.anomalus.$(PRODUCT_NAME:rfc1034identifier)</string>
 >>>>>>> ga-students/master

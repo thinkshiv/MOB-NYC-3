@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E541B055BCC00C219B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B489E531B055BCC00C219B9 /* AppDelegate.swift */; };
 		4B489E561B055BCC00C219B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B489E551B055BCC00C219B9 /* ViewController.swift */; };
 		4B489E591B055BCC00C219B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B489E571B055BCC00C219B9 /* Main.storyboard */; };
@@ -24,6 +25,8 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4B489E4D1B055BCC00C219B9;
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA434B1B055BB6009B7987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA434A1B055BB6009B7987 /* AppDelegate.swift */; };
 		AFBA434D1B055BB6009B7987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA434C1B055BB6009B7987 /* ViewController.swift */; };
 		AFBA43501B055BB6009B7987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBA434E1B055BB6009B7987 /* Main.storyboard */; };
@@ -39,12 +42,16 @@
 			containerPortal = AFBA433D1B055BB6009B7987 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AFBA43441B055BB6009B7987;
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			remoteInfo = DismissModal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 		4B489E4E1B055BCC00C219B9 /* DismissModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DismissModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B489E521B055BCC00C219B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +69,8 @@
 /* Begin PBXFrameworksBuildPhase section */
 		4B489E4B1B055BCC00C219B9 /* Frameworks */ = {
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA43451B055BB6009B7987 /* DismissModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DismissModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBA43491B055BB6009B7987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFBA434A1B055BB6009B7987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +86,9 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		AFBA43421B055BB6009B7987 /* Frameworks */ = {
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,7 +97,11 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E601B055BCC00C219B9 /* Frameworks */ = {
+=======
+		AFBA43571B055BB6009B7987 /* Frameworks */ = {
+>>>>>>> ga-students/master
 =======
 		AFBA43571B055BB6009B7987 /* Frameworks */ = {
 >>>>>>> ga-students/master
@@ -98,6 +114,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 		4B489E451B055BCC00C219B9 = {
 			isa = PBXGroup;
@@ -114,6 +131,8 @@
 				4B489E4E1B055BCC00C219B9 /* DismissModal.app */,
 				4B489E631B055BCC00C219B9 /* DismissModalTests.xctest */,
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA433C1B055BB6009B7987 = {
 			isa = PBXGroup;
 			children = (
@@ -128,11 +147,15 @@
 			children = (
 				AFBA43451B055BB6009B7987 /* DismissModal.app */,
 				AFBA435A1B055BB6009B7987 /* DismissModalTests.xctest */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		4B489E501B055BCC00C219B9 /* DismissModal */ = {
 			isa = PBXGroup;
@@ -145,6 +168,8 @@
 				4B489E5C1B055BCC00C219B9 /* LaunchScreen.xib */,
 				4B489E511B055BCC00C219B9 /* Supporting Files */,
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA43471B055BB6009B7987 /* DismissModal */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,26 +180,36 @@
 				AFBA43531B055BB6009B7987 /* LaunchScreen.xib */,
 				AFBA43481B055BB6009B7987 /* Supporting Files */,
 				AFBA436E1B055D9E009B7987 /* ModalViewController.swift */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			path = DismissModal;
 			sourceTree = "<group>";
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E511B055BCC00C219B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				4B489E521B055BCC00C219B9 /* Info.plist */,
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA43481B055BB6009B7987 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				AFBA43491B055BB6009B7987 /* Info.plist */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		4B489E661B055BCC00C219B9 /* DismissModalTests */ = {
 			isa = PBXGroup;
@@ -182,26 +217,37 @@
 				4B489E691B055BCC00C219B9 /* DismissModalTests.swift */,
 				4B489E671B055BCC00C219B9 /* Supporting Files */,
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA435D1B055BB6009B7987 /* DismissModalTests */ = {
 			isa = PBXGroup;
 			children = (
 				AFBA43601B055BB6009B7987 /* DismissModalTests.swift */,
 				AFBA435E1B055BB6009B7987 /* Supporting Files */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			path = DismissModalTests;
 			sourceTree = "<group>";
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E671B055BCC00C219B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				4B489E681B055BCC00C219B9 /* Info.plist */,
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA435E1B055BB6009B7987 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				AFBA435F1B055BB6009B7987 /* Info.plist */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			name = "Supporting Files";
@@ -211,6 +257,7 @@
 
 /* Begin PBXNativeTarget section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E4D1B055BCC00C219B9 /* DismissModal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B489E6D1B055BCC00C219B9 /* Build configuration list for PBXNativeTarget "DismissModal" */;
@@ -219,6 +266,8 @@
 				4B489E4B1B055BCC00C219B9 /* Frameworks */,
 				4B489E4C1B055BCC00C219B9 /* Resources */,
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA43441B055BB6009B7987 /* DismissModal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFBA43641B055BB6009B7987 /* Build configuration list for PBXNativeTarget "DismissModal" */;
@@ -226,6 +275,9 @@
 				AFBA43411B055BB6009B7987 /* Sources */,
 				AFBA43421B055BB6009B7987 /* Frameworks */,
 				AFBA43431B055BB6009B7987 /* Resources */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			buildRules = (
@@ -234,6 +286,7 @@
 			);
 			name = DismissModal;
 			productName = DismissModal;
+<<<<<<< HEAD
 <<<<<<< HEAD
 			productReference = 4B489E4E1B055BCC00C219B9 /* DismissModal.app */;
 			productType = "com.apple.product-type.application";
@@ -246,6 +299,8 @@
 				4B489E601B055BCC00C219B9 /* Frameworks */,
 				4B489E611B055BCC00C219B9 /* Resources */,
 =======
+=======
+>>>>>>> ga-students/master
 			productReference = AFBA43451B055BB6009B7987 /* DismissModal.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -256,11 +311,15 @@
 				AFBA43561B055BB6009B7987 /* Sources */,
 				AFBA43571B055BB6009B7987 /* Frameworks */,
 				AFBA43581B055BB6009B7987 /* Resources */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 <<<<<<< HEAD
 				4B489E651B055BCC00C219B9 /* PBXTargetDependency */,
 			);
@@ -268,17 +327,23 @@
 			productName = DismissModalTests;
 			productReference = 4B489E631B055BCC00C219B9 /* DismissModalTests.xctest */;
 =======
+=======
+>>>>>>> ga-students/master
 				AFBA435C1B055BB6009B7987 /* PBXTargetDependency */,
 			);
 			name = DismissModalTests;
 			productName = DismissModalTests;
 			productReference = AFBA435A1B055BB6009B7987 /* DismissModalTests.xctest */;
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 		4B489E461B055BCC00C219B9 /* Project object */ = {
 			isa = PBXProject;
@@ -297,6 +362,8 @@
 			};
 			buildConfigurationList = 4B489E491B055BCC00C219B9 /* Build configuration list for PBXProject "DismissModal" */;
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA433D1B055BB6009B7987 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
@@ -313,6 +380,9 @@
 				};
 			};
 			buildConfigurationList = AFBA43401B055BB6009B7987 /* Build configuration list for PBXProject "DismissModal" */;
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -322,6 +392,7 @@
 				Base,
 			);
 <<<<<<< HEAD
+<<<<<<< HEAD
 			mainGroup = 4B489E451B055BCC00C219B9;
 			productRefGroup = 4B489E4F1B055BCC00C219B9 /* Products */;
 			projectDirPath = "";
@@ -330,6 +401,8 @@
 				4B489E4D1B055BCC00C219B9 /* DismissModal */,
 				4B489E621B055BCC00C219B9 /* DismissModalTests */,
 =======
+=======
+>>>>>>> ga-students/master
 			mainGroup = AFBA433C1B055BB6009B7987;
 			productRefGroup = AFBA43461B055BB6009B7987 /* Products */;
 			projectDirPath = "";
@@ -337,12 +410,16 @@
 			targets = (
 				AFBA43441B055BB6009B7987 /* DismissModal */,
 				AFBA43591B055BB6009B7987 /* DismissModalTests */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 		4B489E4C1B055BCC00C219B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -356,6 +433,8 @@
 		};
 		4B489E611B055BCC00C219B9 /* Resources */ = {
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA43431B055BB6009B7987 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +446,9 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AFBA43581B055BB6009B7987 /* Resources */ = {
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,6 +459,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 		4B489E4A1B055BCC00C219B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -394,6 +477,8 @@
 			files = (
 				4B489E6A1B055BCC00C219B9 /* DismissModalTests.swift in Sources */,
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA43411B055BB6009B7987 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,6 +494,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFBA43611B055BB6009B7987 /* DismissModalTests.swift in Sources */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,45 +505,63 @@
 
 /* Begin PBXTargetDependency section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E651B055BCC00C219B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4B489E4D1B055BCC00C219B9 /* DismissModal */;
 			targetProxy = 4B489E641B055BCC00C219B9 /* PBXContainerItemProxy */;
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA435C1B055BB6009B7987 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AFBA43441B055BB6009B7987 /* DismissModal */;
 			targetProxy = AFBA435B1B055BB6009B7987 /* PBXContainerItemProxy */;
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E571B055BCC00C219B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4B489E581B055BCC00C219B9 /* Base */,
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA434E1B055BB6009B7987 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AFBA434F1B055BB6009B7987 /* Base */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E5C1B055BCC00C219B9 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4B489E5D1B055BCC00C219B9 /* Base */,
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA43531B055BB6009B7987 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AFBA43541B055BB6009B7987 /* Base */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			name = LaunchScreen.xib;
@@ -465,7 +571,11 @@
 
 /* Begin XCBuildConfiguration section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E6B1B055BCC00C219B9 /* Debug */ = {
+=======
+		AFBA43621B055BB6009B7987 /* Debug */ = {
+>>>>>>> ga-students/master
 =======
 		AFBA43621B055BB6009B7987 /* Debug */ = {
 >>>>>>> ga-students/master
@@ -513,7 +623,11 @@
 			name = Debug;
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E6C1B055BCC00C219B9 /* Release */ = {
+=======
+		AFBA43631B055BB6009B7987 /* Release */ = {
+>>>>>>> ga-students/master
 =======
 		AFBA43631B055BB6009B7987 /* Release */ = {
 >>>>>>> ga-students/master
@@ -554,7 +668,11 @@
 			name = Release;
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E6E1B055BCC00C219B9 /* Debug */ = {
+=======
+		AFBA43651B055BB6009B7987 /* Debug */ = {
+>>>>>>> ga-students/master
 =======
 		AFBA43651B055BB6009B7987 /* Debug */ = {
 >>>>>>> ga-students/master
@@ -568,7 +686,11 @@
 			name = Debug;
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E6F1B055BCC00C219B9 /* Release */ = {
+=======
+		AFBA43661B055BB6009B7987 /* Release */ = {
+>>>>>>> ga-students/master
 =======
 		AFBA43661B055BB6009B7987 /* Release */ = {
 >>>>>>> ga-students/master
@@ -582,7 +704,11 @@
 			name = Release;
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E711B055BCC00C219B9 /* Debug */ = {
+=======
+		AFBA43681B055BB6009B7987 /* Debug */ = {
+>>>>>>> ga-students/master
 =======
 		AFBA43681B055BB6009B7987 /* Debug */ = {
 >>>>>>> ga-students/master
@@ -605,7 +731,11 @@
 			name = Debug;
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E721B055BCC00C219B9 /* Release */ = {
+=======
+		AFBA43691B055BB6009B7987 /* Release */ = {
+>>>>>>> ga-students/master
 =======
 		AFBA43691B055BB6009B7987 /* Release */ = {
 >>>>>>> ga-students/master
@@ -627,22 +757,29 @@
 
 /* Begin XCConfigurationList section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4B489E491B055BCC00C219B9 /* Build configuration list for PBXProject "DismissModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B489E6B1B055BCC00C219B9 /* Debug */,
 				4B489E6C1B055BCC00C219B9 /* Release */,
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA43401B055BB6009B7987 /* Build configuration list for PBXProject "DismissModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFBA43621B055BB6009B7987 /* Debug */,
 				AFBA43631B055BB6009B7987 /* Release */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		4B489E6D1B055BCC00C219B9 /* Build configuration list for PBXNativeTarget "DismissModal" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +795,8 @@
 				4B489E711B055BCC00C219B9 /* Debug */,
 				4B489E721B055BCC00C219B9 /* Release */,
 =======
+=======
+>>>>>>> ga-students/master
 		AFBA43641B055BB6009B7987 /* Build configuration list for PBXNativeTarget "DismissModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -671,6 +810,9 @@
 			buildConfigurations = (
 				AFBA43681B055BB6009B7987 /* Debug */,
 				AFBA43691B055BB6009B7987 /* Release */,
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
 			);
 			defaultConfigurationIsVisible = 0;
@@ -678,7 +820,11 @@
 /* End XCConfigurationList section */
 	};
 <<<<<<< HEAD
+<<<<<<< HEAD
 	rootObject = 4B489E461B055BCC00C219B9 /* Project object */;
+=======
+	rootObject = AFBA433D1B055BB6009B7987 /* Project object */;
+>>>>>>> ga-students/master
 =======
 	rootObject = AFBA433D1B055BB6009B7987 /* Project object */;
 >>>>>>> ga-students/master

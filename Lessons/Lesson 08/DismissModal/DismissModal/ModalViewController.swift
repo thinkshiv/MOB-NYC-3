@@ -3,8 +3,13 @@
 //  DismissModal
 //
 <<<<<<< HEAD
+<<<<<<< HEAD
 //  Created by Shiven Ramji on 5/14/15.
 //  Copyright (c) 2015 Shiven Ramji. All rights reserved.
+=======
+//  Created by William Martin on 5/14/15.
+//  Copyright (c) 2015 Anomalus. All rights reserved.
+>>>>>>> ga-students/master
 =======
 //  Created by William Martin on 5/14/15.
 //  Copyright (c) 2015 Anomalus. All rights reserved.
@@ -15,8 +20,11 @@ import UIKit
 
 class ModalViewController: UIViewController {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> ga-students/master
     @IBOutlet weak var myTextField: UITextField!
 
     @IBAction func onDismissTapped(sender: AnyObject) {
@@ -37,6 +45,9 @@ class ModalViewController: UIViewController {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
 >>>>>>> ga-students/master
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +56,7 @@ class ModalViewController: UIViewController {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @IBOutlet var myTextField: [UITextField]!
     @IBAction func onDismissTapped(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
@@ -52,6 +64,8 @@ class ModalViewController: UIViewController {
         let label = (self.presentedViewController as! ViewController).myLabel
         label.text = newLabelText
     }
+=======
+>>>>>>> ga-students/master
 =======
 >>>>>>> ga-students/master
     override func didReceiveMemoryWarning() {
