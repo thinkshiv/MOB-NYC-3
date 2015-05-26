@@ -126,7 +126,9 @@
             </a>
         </td>
         <td><strong>2015 05 21</strong><br>
-            10 - iOS Design Patterns
+            <a href="https://github.com/ga-students/MOB-NYC-3/tree/master/Lessons/Lesson%2010">
+                10 - App-Building Workflow
+            </a>
         </td>
     </tr>
     
