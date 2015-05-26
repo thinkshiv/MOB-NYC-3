@@ -15,6 +15,7 @@
 		4B17BA711B0C0DC50071688B /* TaskMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BA701B0C0DC50071688B /* TaskMasterTests.swift */; };
 		4B17BA7B1B0C349C0071688B /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BA7A1B0C349C0071688B /* NewTaskViewController.swift */; };
 		4B17BA7D1B0C9DCE0071688B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BA7C1B0C9DCE0071688B /* Task.swift */; };
+		4BFFF8E81B0CE71F00ADEB32 /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFF8E71B0CE71F00ADEB32 /* EditTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		4B17BA701B0C0DC50071688B /* TaskMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMasterTests.swift; sourceTree = "<group>"; };
 		4B17BA7A1B0C349C0071688B /* NewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
 		4B17BA7C1B0C9DCE0071688B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		4BFFF8E71B0CE71F00ADEB32 /* EditTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				4B17BA5E1B0C0DC50071688B /* Main.storyboard */,
 				4B17BA7C1B0C9DCE0071688B /* Task.swift */,
 				4B17BA7A1B0C349C0071688B /* NewTaskViewController.swift */,
+				4BFFF8E71B0CE71F00ADEB32 /* EditTaskViewController.swift */,
 				4B17BA611B0C0DC50071688B /* Images.xcassets */,
 				4B17BA631B0C0DC50071688B /* LaunchScreen.xib */,
 				4B17BA581B0C0DC50071688B /* Supporting Files */,
@@ -220,6 +223,7 @@
 			files = (
 				4B17BA7D1B0C9DCE0071688B /* Task.swift in Sources */,
 				4B17BA5D1B0C0DC50071688B /* ViewController.swift in Sources */,
+				4BFFF8E81B0CE71F00ADEB32 /* EditTaskViewController.swift in Sources */,
 				4B17BA7B1B0C349C0071688B /* NewTaskViewController.swift in Sources */,
 				4B17BA5B1B0C0DC50071688B /* AppDelegate.swift in Sources */,
 			);
@@ -417,6 +421,7 @@
 				4B17BA761B0C0DC50071688B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B17BA771B0C0DC50071688B /* Build configuration list for PBXNativeTarget "TaskMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				4B17BA791B0C0DC50071688B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

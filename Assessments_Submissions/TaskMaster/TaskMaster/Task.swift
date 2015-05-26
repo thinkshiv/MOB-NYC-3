@@ -15,12 +15,11 @@ class Task {
     var description : String
     
     
-    init(title:String) {
+    init(title: String, description: String) {
         self.title = title
+        self.datecreated = NSDate()
+        self.datedue = NSDate()
+        self.description=description
     }
     
-    
-    func bark() -> String {
-        return "\(self.name) says woof!"
-    }
 }

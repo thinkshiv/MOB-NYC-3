@@ -11,9 +11,9 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet var tableView: UITableView!
+    //var editViewController : EditTaskViewController!
     
-    
-    var tasks = ["Buy an Apple Watch","Purchase AppleCare","Sell my iPad"]
+    var tasks: [Task] = []
     
     
     
@@ -40,14 +40,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        //tasks.append(title:"test", description:"test")
         let cell = self.tableView.dequeueReusableCellWithIdentifier("TaskCell", forIndexPath: indexPath) as! UITableViewCell
         let task = self.tasks[indexPath.row]
-        cell.textLabel!.text = task
-        
+        cell.textLabel!.text = task.title
         return cell
     }
     
-    func insertNewTask(task:String){
+    func insertNewTask(task:Task){
         self.tasks.append(task) // remember the data
         
         let indexPath = NSIndexPath(forItem: self.tasks.count - 1, inSection: 0)
@@ -59,8 +59,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let destination = segue.destinationViewController as! NewTaskViewController
             destination.mainViewController = self
         }
+        else if (segue.identifier == "editTaskSegue") {
+            let destination = segue.destinationViewController as! EditTaskViewController
+            destination.mainViewController = self
+            let indexPath = NSIndexPath(forItem: self.tasks.count - 1, inSection: 0)
+            let cell = self.tableView.cellForRowAtIndexPath(indexPath)
+            let task = self.tasks[indexPath.row]
+            destination.tasks.append(task)
+            
+        }
         
+      
     }
+    
     
 
 
