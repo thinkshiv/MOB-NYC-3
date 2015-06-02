@@ -148,7 +148,8 @@
         <td><strong>Wk 7</strong></td>
         <td>3</td>
         <td><strong>2015 06 02</strong><br>
-            13 - Introduction to Auto Layout
+            13 - Introduction to Auto Layout<br>
+            <em>Assessment #4 assigned</em>
         </td>
         <td><strong>2015 06 04</strong><br>
             14 - iOS Design Patterns
@@ -158,7 +159,10 @@
     <tr>
         <td><strong>Wk 8</strong></td>
         <td>3</td>
-        <td><strong>2015 06 09</strong><br>15 - Files and Persistence 1</td>
+        <td><strong>2015 06 09</strong><br>
+            15 - Files and Persistence 1<br>
+            <em>Midterm due</em>
+        </td>
         <td><strong>2015 06 11</strong><br>16 - Files and Persistence 2</td>
     </tr>
     
@@ -219,6 +223,7 @@ Work for the class consists of in-class exercises, "homework" assignments, and t
                 </a>
             </td>
         </tr>
+        
         <tr>
             <td><strong>02 - 03</strong></td>
             <td>
@@ -232,6 +237,16 @@ Work for the class consists of in-class exercises, "homework" assignments, and t
                     Complete the "Simulate a Game" near the end of the Lesson 06 slides (Slide 35).
                 </a>
             </td>
+        </tr>
+        
+        <tr>
+            <td>&nbsp;</td>
+            <td>Create a Todo List App</td>
+        </tr>
+        
+        <tr>
+            <td>&nbsp;</td>
+            <td>Auto Layout exercise</td>
         </tr>
     </tbody>
 </table>
