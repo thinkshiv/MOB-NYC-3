@@ -223,6 +223,7 @@ Work for the class consists of in-class exercises, "homework" assignments, and t
                 </a>
             </td>
         </tr>
+        
         <tr>
             <td><strong>02 - 03</strong></td>
             <td>
@@ -236,6 +237,16 @@ Work for the class consists of in-class exercises, "homework" assignments, and t
                     Complete the "Simulate a Game" near the end of the Lesson 06 slides (Slide 35).
                 </a>
             </td>
+        </tr>
+        
+        <tr>
+            <td>&nbsp;</td>
+            <td>Create a Todo List App</td>
+        </tr>
+        
+        <tr>
+            <td>&nbsp;</td>
+            <td>Auto Layout exercise</td>
         </tr>
     </tbody>
 </table>
