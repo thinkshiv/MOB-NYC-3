@@ -11,48 +11,87 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    // MARK: - Declare Outlet References
     @IBOutlet weak var displayScreen: UILabel!
     
     @IBOutlet weak var clearButton: UIButton!
     
+    // MARK: - Declare global variables
     var userIsTypingANumber : Bool = false
-    var IsPositive : Bool = true
+    var IsIntOnly : Bool = true
+    var DotPressed : Bool = false
     var IsDecimalAlready : Bool = false
     var operatorPressed : String = ""
     var operandStack = Array<Double>()
+    var displayString : String = ""
+    var countDotPressed : Int = 0
+    var countCleared : Int = 0
     
     var displayValue : Double {
         
         get{
-                return NSNumberFormatter().numberFromString(self.displayScreen.text!)!.doubleValue
+            return NSNumberFormatter().numberFromString(self.displayScreen.text!)!.doubleValue
         }
         set {
             
             displayScreen.text = "\(newValue)"
-            userIsTypingANumber = false
+            //userIsTypingANumber = false
         }
     }
     
+    @IBAction func dotButtonPressed(sender: UIButton) {
+        
+        if countDotPressed == 0{
+            DotPressed = true
+            IsIntOnly = false
+            println(IsIntOnly)
+            displayString =  displayScreen.text! + "."
+            println("displayString is after dot is " + displayString)
+            displayScreen.text = displayString
+            countDotPressed++
+        }
+        else
+        {
+            //Do Nothing
+        }
+        
+    }
     @IBAction func appendDigit(sender: UIButton) {
         let digit = sender.titleLabel!.text!
-        if userIsTypingANumber && isDouble(displayScreen.text!) {
-            //displayValue = displayValue * -1
-            //displayScreen.text = displayValue.description
-            displayValue = NSString(string: displayScreen.text! + digit).doubleValue
-            displayScreen.text = displayScreen.text! + digit
-            self.clearButton.titleLabel?.text = "C"
+        println(digit)
+        //IsIntOnly = true
+        
+        if userIsTypingANumber {
             
-        } else
-        {
+            displayString =  displayScreen.text! + digit
+            println("First display string is " + displayString)
+            displayScreen.text = displayString
             
-            displayValue = NSString(string: digit).doubleValue
-            self.clearButton.titleLabel?.text = "AC"
-            userIsTypingANumber = false
-            operandStack.append(displayValue)
-            println("\(operandStack)")
+            
+        } else {
+            
+            
+            userIsTypingANumber = true
+            displayString =  digit
+            displayScreen.text = displayString
+            println("Second displayString is " + displayString + " and Second displayValue is \(displayValue)")
+            
+            println("operandStack during else within appendDigits is: \(operandStack)")
             
         }
+        
+        
+        //if countCleared == 0 {
+            self.clearButton.titleLabel?.text = "C"
+       // }
+        println("cleared pressed \(countCleared) times")
+        displayValue = NSString(string: displayString).doubleValue
+        operandStack.append(displayValue)
+        println("operandStack during appendDigits is: \(operandStack)")
+        
+        updateDisplay()
     }
+    
     
     func performOperation(operation: (Double, Double) -> Double)
     {
@@ -60,19 +99,42 @@ class ViewController: UIViewController {
             displayValue = operation (operandStack.removeLast(), operandStack.removeLast())
             userIsTypingANumber = false
             operandStack.append(displayValue)
-            println("\(operandStack)")
+            displayString = displayValue.description
+            println("operandStack during performOperation is: \(operandStack)")
             println("\(displayValue)")
         }
     }
     
+    func performOperation(operation: Double -> Double)
+    {
+        if operandStack.count >= 1{
+            displayValue = operation (operandStack.removeLast())
+            userIsTypingANumber = false
+            operandStack.append(displayValue)
+            displayString = displayValue.description
+            println("operandStack during performOperation is: \(operandStack)")
+            println("\(displayValue)")
+        }
+    }
+    
+    @IBAction func percentButtonTapped(sender: UIButton) {
+        displayString =  displayScreen.text!
+        displayValue = NSString(string: displayString).doubleValue
+        operandStack.append(displayValue)
+        displayValue = operandStack.removeLast() / 100
+        println(" % value is now \(displayValue)")
+        displayString = displayValue.description
+        //self.displayScreen.text = displayValue.description
+        IsIntOnly=true
+        updateDisplay()
+        operandStack.append(displayValue)
+        
+    }
     @IBAction func operate(sender: UIButton) {
         operatorPressed = sender.titleLabel!.text!
-        if userIsTypingANumber {
-            userIsTypingANumber = true
-            operandStack.append(displayValue)
-            println("\(operandStack)")
-        }
-        
+        userIsTypingANumber=false
+        println("displayString at operate button is \(displayString)")
+        println("operandStack during operate button is: \(operandStack)")
     }
     
     /*
@@ -84,21 +146,46 @@ class ViewController: UIViewController {
     
     // MARK: - Toggle Positive / Negative
     @IBAction func togglePositiveNegative(sender: AnyObject) {
-        // Check to see if the display screen is a double. If yes, then convert to Double and we are good
-        if isDouble(displayScreen.text!){
+        if operandStack.count == 0
+        {
+            displayScreen.text = "0"
+        }
+        else{
+            
             displayValue = displayValue * -1
+           
             displayScreen.text = displayValue.description
+            displayString = displayValue.description
+            operandStack.append(displayValue)
+            
+            println("operandStack during Toggle after Double check is: \(operandStack)")
+            userIsTypingANumber=false
+            updateDisplay()
+            println("displayString at tend of Toggle is \(displayString) after updateDisplay()")
         }
-        else { // Do not convert to Double, convert to Int instead
-            let newDisplayNumber = displayScreen.text!.toInt()! * -1
-            displayScreen.text = newDisplayNumber.description
-        }
-        
     }
     
     func updateDisplay()
     {
-        self.displayScreen.text = displayValue.description
+        let dotIndex: Character = "."
+        println("displayString within updateDisplay() \(displayString)")
+        
+        if IsIntOnly && NSString(string: displayString).containsString(".")
+        {
+            
+            print("Is it int or not within updateDisplay() \(IsIntOnly)")
+            if let idx = find(displayString, dotIndex) {
+                
+                self.displayScreen.text = displayString.substringToIndex(idx)
+                println("Found \(dotIndex) at position \(idx)")
+            }
+
+        }
+        else {
+            IsIntOnly = false
+            self.displayScreen.text =  displayString
+        }
+        
     }
     
     
@@ -108,9 +195,18 @@ class ViewController: UIViewController {
         case "C":
             userIsTypingANumber = false
             displayScreen.text = "0"
+            displayString = displayScreen!.text!
+            updateDisplay()
+            countCleared++
+            if countCleared >= 1{
+                self.clearButton.titleLabel?.text = "AC"
+            }
+            
         case "AC":
             operandStack.removeAll(keepCapacity: true)
             userIsTypingANumber = false
+            displayScreen.text = "0"
+            countCleared = 0
         default: break
             
         }
@@ -125,16 +221,21 @@ class ViewController: UIViewController {
         switch operatorPressed {
         case "÷":
             performOperation { $1 / $0 }
+            println("dividing last two numbers")
         case "×":
             performOperation { $0 * $1 }
+            println("multiplying last two numbers")
         case "−":
             performOperation { $1 - $0 }
+            println("subtracting last two numbers")
         case "+":
             performOperation { $0 + $1 }
-            println("we got here")
+            println("adding last two numbers")
         default: break
             
         }
+        updateDisplay()
+        IsIntOnly=true
         
     }
     override func viewDidLoad() {

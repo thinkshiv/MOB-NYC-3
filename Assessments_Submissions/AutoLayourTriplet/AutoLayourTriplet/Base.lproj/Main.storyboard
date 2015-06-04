@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AutoLayourTriplet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qvG-St-c3D" userLabel="RedSquare">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gfG-S2-1qG" userLabel="YellowSquare">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xkZ-iV-OuQ" userLabel="YellowSquare">
+                                <rect key="frame" x="400" y="400" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xkZ-iV-OuQ" firstAttribute="width" secondItem="gfG-S2-1qG" secondAttribute="width" id="1uT-CD-LIc"/>
+                            <constraint firstItem="qvG-St-c3D" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="4F3-qg-ZIR"/>
+                            <constraint firstItem="qvG-St-c3D" firstAttribute="height" secondItem="gfG-S2-1qG" secondAttribute="height" id="6zj-qe-16g"/>
+                            <constraint firstItem="qvG-St-c3D" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" multiplier="1:3" id="86X-V6-LWB"/>
+                            <constraint firstItem="qvG-St-c3D" firstAttribute="width" secondItem="gfG-S2-1qG" secondAttribute="width" id="A2d-B2-P4e"/>
+                            <constraint firstItem="qvG-St-c3D" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="1:3" id="KdJ-uz-T7i"/>
+                            <constraint firstItem="xkZ-iV-OuQ" firstAttribute="height" secondItem="gfG-S2-1qG" secondAttribute="height" id="LbJ-VA-ZPJ"/>
+                            <constraint firstItem="xkZ-iV-OuQ" firstAttribute="leading" secondItem="gfG-S2-1qG" secondAttribute="trailing" id="O8a-Nb-cun"/>
+                            <constraint firstItem="xkZ-iV-OuQ" firstAttribute="top" secondItem="gfG-S2-1qG" secondAttribute="bottom" id="adl-8C-zKJ"/>
+                            <constraint firstItem="qvG-St-c3D" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-20" id="qJS-kG-H5e"/>
+                            <constraint firstItem="gfG-S2-1qG" firstAttribute="top" secondItem="qvG-St-c3D" secondAttribute="bottom" id="zWG-it-wSd"/>
+                            <constraint firstItem="gfG-S2-1qG" firstAttribute="leading" secondItem="qvG-St-c3D" secondAttribute="trailing" id="zq9-e9-41k"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
