@@ -154,7 +154,7 @@
             <em>Assessment #4 assigned</em>
         </td>
         <td><strong>2015 06 04</strong><br>
-            14 - iOS Design Patterns
+            14 - Views and Interactivity
         </td>
     </tr>
     
