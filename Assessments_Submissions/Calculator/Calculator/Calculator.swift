@@ -57,8 +57,10 @@ enum CalcPart : String {
     case Display = ""
     
     /// All the parts that can be tapped (everything but the display)
-    static var allButtons: [CalcPart] = [ .Plus, .Minus, .Divide, .Multiply, .Equal, .Decimal, .Clear, .SwapSign, .Percent, .Num0, .Num1, .Num2, .Num3, .Num4, .Num5, .Num6, .Num7, .Num8, .Num9 ]
+    //static var allButtons: [CalcPart] = [ .Plus, .Minus, .Divide, .Multiply, .Equal, .Decimal, .Clear, .SwapSign, .Percent, .Num0, .Num1, .Num2, .Num3, .Num4, .Num5, .Num6, .Num7, .Num8, .Num9 ]
 }
+
+/* Commenting out the new codes with structs
 
 /// A numeric entry area that handles partially-entered numbers such as "-0."
 struct CalcDisplay : Printable {
@@ -158,7 +160,7 @@ struct CalcState : Printable {
 }
 
 
-
+*/
 
 
 
