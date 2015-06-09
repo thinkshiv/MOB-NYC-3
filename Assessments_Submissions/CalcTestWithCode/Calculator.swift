@@ -312,5 +312,5 @@ func addCalculatorToView(rootView: UIView) {
 }
 
 let rootView = UIView(frame: CGRect(x:0, y:0, width: 640, height: 1136)) // iPhone 5
-addCalculatorToView(rootView)
-rootView.layoutIfNeeded()
+//addCalculatorToView(rootView)
+//rootView.layoutIfNeeded()

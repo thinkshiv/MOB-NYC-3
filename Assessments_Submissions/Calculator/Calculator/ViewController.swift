@@ -39,6 +39,68 @@ class ViewController: UIViewController {
         }
     }
     
+    
+    // MARK: New code
+    /*
+
+    var calcstack : Array<CalcState> = []
+    
+    func undo() -> CalcState {
+        if calcstack.count > 0 {
+            calcstack.removeLast()
+        }
+        
+        return calcstack.last ?? CalcState()
+    }
+    
+    func press(part: CalcPart) -> CalcState {
+        var calc = calcstack.last ?? CalcState()
+        
+        switch part {
+        case .Display: return calc // no-op
+        case .Num0: calc.enterDigit(0)
+        case .Num1: calc.enterDigit(1)
+        case .Num2: calc.enterDigit(2)
+        case .Num3: calc.enterDigit(3)
+        case .Num4: calc.enterDigit(4)
+        case .Num5: calc.enterDigit(5)
+        case .Num6: calc.enterDigit(6)
+        case .Num7: calc.enterDigit(7)
+        case .Num8: calc.enterDigit(8)
+        case .Num9: calc.enterDigit(9)
+        case .Minus: calc.enterOperation(-, suffix: part.rawValue)
+        case .Plus: calc.enterOperation(+, suffix: part.rawValue)
+        case .Divide: calc.enterOperation(/, suffix: part.rawValue)
+        case .Multiply: calc.enterOperation(*, suffix: part.rawValue)
+        case .SwapSign: calc.enterOperation(*, value: -1.0)
+        case .Percent: calc.enterOperation(/, value: 100)
+        case .Equal: calc.enterOperation(calc.curop)
+        case .Decimal: calc.enterDecimal()
+        case .Clear: return undo()
+        }
+        
+        calcstack += [calc]
+        return calc
+    }
+    
+    
+    @IBAction func buttonPressed(sender: AnyObject) {
+        let digit = sender.titleLabel!!.text!
+        println(digit)
+        println(sender.displayString)
+        //calcstack.append(
+        
+    }
+    
+    
+
+    */
+    
+    
+    
+    
+    // MARK: - Old code
+    
     @IBAction func dotButtonPressed(sender: UIButton) {
         
         if countDotPressed == 0{
@@ -105,17 +167,6 @@ class ViewController: UIViewController {
         }
     }
     
-    func performOperation(operation: Double -> Double)
-    {
-        if operandStack.count >= 1{
-            displayValue = operation (operandStack.removeLast())
-            userIsTypingANumber = false
-            operandStack.append(displayValue)
-            displayString = displayValue.description
-            println("operandStack during performOperation is: \(operandStack)")
-            println("\(displayValue)")
-        }
-    }
     
     @IBAction func percentButtonTapped(sender: UIButton) {
         displayString =  displayScreen.text!
