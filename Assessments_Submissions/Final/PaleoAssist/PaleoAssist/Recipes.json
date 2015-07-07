@@ -1,0 +1,234 @@
+ [
+  {
+  "name": "Asian Meatballs",
+  "ingredients": [
+                  {
+                  "quantity": "1",
+                  "name": " beef roast",
+                  "type": "Meat"
+                  },
+                  {
+                  "quantity": "1 package",
+                  "name": "brown gravy mix",
+                  "type": "Baking"
+                  },
+                  {
+                  "quantity": "1 package",
+                  "name": "dried Italian salad dressing mix",
+                  "type": "Condiments"
+                  },
+                  {
+                  "quantity": "1 package",
+                  "name": "dry ranch dressing mix",
+                  "type": "Condiments"
+                  },
+                  {
+                  "quantity": "1/2 cup",
+                  "name": "water",
+                  "type": "Drinks"
+                  }
+                  ],
+  "steps": [
+            "Line a baking sheet with foil, and preheat the oven to 375°F. In the meantime, finely mince the mushrooms, shallot, sweet potato, and cilantro and toss it all into a large bowl.",
+            "Add the ground beef, fish sauce, and tomato paste, and season with salt and pepper.",
+            "Thoroughly combine the ingredients but don’t overwork the meat.",
+            "Melt the coconut oil, and brush it on a foil-lined baking sheet.",
+            "Use your hands to roll out three dozen meatballs, and arrange them on the baking sheet. Each meatball should be about 1½ inches in diameter.",
+            "Bake for 15 to 20 minutes, rotating the tray at the midpoint to ensure even cooking.",
+            "Plate and serve immediately, or store in an airtight container in the fridge for up to three days."
+            ],
+  "timers": [
+             1,
+             0,
+             0,
+             420,
+             0,
+             0,
+             0
+             ]
+  },
+  {
+  "name": "Bacon & Guacamole Sammies",
+  "ingredients": [
+                  {
+                  "quantity": "4 strips",
+                  "name": "Thick-cut, nitrate-free bacon",
+                  "type": "Meat"
+                  },
+                  {
+                  "quantity": "1",
+                  "name": "Medium-sized Haas avocado",
+                  "type": "Produce"
+                  },
+                  {
+                  "quantity": "1",
+                  "name": "Lime",
+                  "type": "Produce"
+                  },
+                  {
+                  "quantity": "1",
+                  "name": "teaspoon of Kosher salt to taste",
+                  "type": "Condiments"
+                  }
+                  ],
+  "steps": [
+            "Preheat oven to 425°F.",
+            "Cut off the woody bottom part of the asparagus spears and discard.",
+            "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears (this keeps the asparagus from being all.\",string.\", and if you eat asparagus you know what I mean by that).",
+            "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
+            "Sprinkle with salt.",
+            "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
+            "Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.",
+            "They should be tender when pierced with the tip of a knife.",
+            "The tips of the spears will get very brown but watch them to prevent burning.",
+            "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
+            ],
+  "timers": [
+             0,
+             0,
+             0,
+             0,
+             0,
+             0,
+             10,
+             0,
+             0,
+             0
+             ]
+  },
+  {
+  "name": "Baked Kale Chips",
+  "ingredients": [
+                  {
+                  "quantity": "2 bunches",
+                  "name": "Kale",
+                  "type": "Produce"
+                  },
+                  {
+                  "quantity": "1-2 tablespoons",
+                  "name": "Avocado oil",
+                  "type": "Condiments"
+                  },
+                  {
+                  "quantity": "1-2 teaspoons",
+                  "name": "fleur de sel or your favorite seasoning salt",
+                  "type": "Condiments"
+                  }
+                  ],
+  "steps": [
+            "Preheat the oven to 350°F.",
+            "Then, remove the leaves from the stems and wash the leaves well in a few changes of water.",
+            "Then, in small batches, spin the leaves dry in a salad spinner.",
+            "Toss the dry leaves with avocado oil and use your hands to distribute the oil evenly.",
+            "Then, line a baking sheet with parchment paper and lay some of the leaves on top in a single layer.",
+            "Make sure the leaves are all flat and not folded over or they won’t crisp properly.",
+            "Pop the tray in the oven, and after just 12 minutes, the chips’ll be done! (Set your timer and keep an eye on the kale, ‘cause if the chips burns, they’ll be bitter – and so will you.)",
+            "Once the kale’s out of the oven, season the chips with some fleur de sel or your favorite seasoning salt.",
+            "Eat 'em up!"
+            ],
+  "timers": [
+             0,
+             0,
+             0,
+             0,
+             0,
+             0,
+             0,
+             0,
+             0
+             ]
+  },
+  {
+  "name": "Brussels Sprouts Chips",
+  "ingredients": [
+                  {
+                  "quantity": "2 cups",
+                  "name": "Brussels sprout leaves (outer leaves from 2 pounds of sprouts)",
+                  "type": "Produce"
+                  },
+                  {
+                  "quantity": "2 tablespoons",
+                  "name": "Melted ghee",
+                  "type": "Condiments"
+                  },
+                  {
+                  "quantity": "1 teaspoon",
+                  "name": "Kosher salt to taste",
+                  "type": "Baking"
+                  },
+                  {
+                  "quantity": "1",
+                  "name": "Lemon zest (optional)",
+                  "type": "Produce"
+                  }
+                ],
+  "steps": [
+            "Preheat oven to 350°F",
+            "Mix the leaves, ghee, and salt together in a large bowl.",
+            "Line two large baking trays with parchment. Divide the leaves evenly in a single layer on each tray.",
+            "Bake each tray for 8-10 minutes or until crispy and brown around the edges.",
+            "Microplane some lemon zest over the chips (optional), and chow immediately"
+            ],
+  "timers": [
+             15,
+             60,
+             0,
+             0,
+             0,
+             ]
+  },
+  {
+  "name": "Magic Wings",
+  "ingredients": [
+                  {
+                  "quantity": "4 pounds",
+                  "name": "chicken wings",
+                  "type": "Meat"
+                  },
+                  {
+                  "quantity": "2 tablespoons",
+                  "name": "Magic Mushroom Powder",
+                  "type": "Baking"
+                  },
+                  {
+                  "quantity": "1/2teaspoon ",
+                  "name": "Paleo-friendly fish sauce (optional)",
+                  "type": "Condiments"
+                  },
+                  {
+                  "quantity": "1 tablespoon",
+                  "name": "melted ghee, coconut oil, or fat of choice",
+                  "type": "Baking"
+                  },
+                  {
+                  "quantity": "2",
+                  "name": "limes, cut into wedges",
+                  "type": "Produce"
+                  }
+                  ],
+  "steps": [
+            "Place the wings in a large bowl, and throw on the Magic Mushroom Powder",
+            "Add some fish sauce if you feel like kicking up the umami even more.",
+            "Then, toss the chicken with your hands to evenly distribute the seasoning.",
+            "Cover and marinate the wings in the fridge for up to 24 hours.",
+            "A half-hour before serving, take the wings out of the refrigerator and preheat the oven to 425°F with the rack in the middleposition.",
+            "Place a wire rack on top of a foil-lined rimmed bakingsheet. ",
+            "Grease the rack with the melted fat before arranging the chicken wings in a single layer.",
+            "Place the tray in the oven and bake for 15 minutes",
+            "Then, flip each wing and rotate the tray. Bake for another 10 to 15 minutes or until the skins are crisp, taut, and brown.",
+            "Plate and serve immediately with lime wedges so your party guests can add a squirt before tearing into these piping hot wings."
+            ],
+  "timers": [
+             0,
+             0,
+             0,
+             30,
+             0,
+             0,
+             30,
+             0,
+             15,
+             0
+             ]
+  }
+          ]
