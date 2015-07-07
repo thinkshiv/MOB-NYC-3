@@ -111,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				4BE947C81B49755300791B89 /* SwiftyJSON.swift */,
-				4BE947B51B496F6C00791B89 /* CookingKit */,
+				4BE947B51B496F6C00791B89 /* Cooking */,
 				4B193DD21B4823B100FB9A2D /* PaleoAssist */,
 				4B193DEA1B4823B100FB9A2D /* PaleoAssistTests */,
 				4B193DD11B4823B100FB9A2D /* Products */,
@@ -176,14 +176,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4BE947B51B496F6C00791B89 /* CookingKit */ = {
+		4BE947B51B496F6C00791B89 /* Cooking */ = {
 			isa = PBXGroup;
 			children = (
 				4BE947B61B496F9D00791B89 /* Models */,
 				4BE947BE1B4970F800791B89 /* Recipes.json */,
 				4BE947B71B496FA800791B89 /* Storage */,
 			);
-			name = CookingKit;
+			name = Cooking;
 			sourceTree = "<group>";
 		};
 		4BE947B61B496F9D00791B89 /* Models */ = {

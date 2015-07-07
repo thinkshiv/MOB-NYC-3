@@ -10,9 +10,9 @@ import Foundation
 
 public struct GroceryListConfig {
     // replace IDs with the ones you set up in target Capabilities
-    public static let groupID = "group.com.KingTimo.iCook"
-    public static let iCloudID = "iCloud.com.KingTimo.iCook"
-    public static let filename = "com.rw.iCook.MyCart.json"
+    public static let groupID = "group.com."
+    public static let iCloudID = "iCloud.com."
+    public static let filename = "MyCart.json"
     public static var url = NSURL()
     public static var cloudURL = NSURL()
     public static var groupURL: NSURL {

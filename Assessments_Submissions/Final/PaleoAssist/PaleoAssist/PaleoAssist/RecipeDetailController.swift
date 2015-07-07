@@ -49,6 +49,7 @@ class RecipeDetailController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Load initial selected segment control
         segmentedControl.selectedSegmentIndex = initialController.rawValue
         println("we got here")
         updateSelectedController(initialController)
@@ -80,6 +81,7 @@ class RecipeDetailController: UIViewController {
         }
     }
     
+    // Function to update the selected controller
     func updateSelectedController(selected: RecipeDetailSelection) {
         switch selected {
         case .Ingredients:
@@ -97,6 +99,7 @@ class RecipeDetailController: UIViewController {
         }
     }
     
+    //Dynamically add the prompt button if Ingredients
     func promptActionButton() -> UIBarButtonItem {
         return UIBarButtonItem(barButtonSystemItem: .Compose, target: self, action: "onPromptAddMyCart:")
     }

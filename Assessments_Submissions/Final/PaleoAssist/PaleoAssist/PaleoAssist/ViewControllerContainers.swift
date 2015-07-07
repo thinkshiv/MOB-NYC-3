@@ -10,6 +10,7 @@ import UIKit
 
 extension UIViewController {
     
+    // Code to extend the UIViewController to add the child controller
     func addSubViewController(controller: UIViewController) {
         addChildViewController(controller)
         controller.view.setTranslatesAutoresizingMaskIntoConstraints(false)
